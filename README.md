@@ -21,8 +21,8 @@ Windows kernel driver that removes Process Protection (PP) and Process Protectio
 
 - **Do note that PP is superior to PPL any PP can obtain full access to a PPL, never vice versa. You can set your process protection to a higher protection level than your target this could be very useful**
 
-- **Stated in the course work you can use this to disable the Process Protection light (PPL) from lsass.exe and allow mimikatz to do it's work**
+- **Stated in the course you can use this to disable the Process Protection light (PPL) from lsass.exe and allow mimikatz to do it's work**
 
-- **Personally I used to to disable the Process Protection Light (PPL) from csrss.exe (Just to test another protected process)**
+- **Personally I used this to disable the Process Protection Light (PPL) from csrss.exe (to test other protected processes)**
 
-- **I've only played with this for a little but so far I found maybe sending MsMpEng.exe which is also another (PPL) process**
+- **I've only played with this for a little but so far I think maybe sending the pid of MsMpEng.exe (Microsoft Malware Protection Engine) which is also another (PPL) process may be a good idea I will see...**
