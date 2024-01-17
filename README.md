@@ -15,7 +15,7 @@ Windows kernel driver that removes Process Protection (PP) and Process Protectio
 
 ```
 
-**Dually this kernel driver can also make a process protected by setting the process's PS_PROTECTION struct values to values that suit your needs**
+**Dually this kernel driver can also make a process protected by setting the process's PS_PROTECTION struct values to ones that suit your needs**
 
 # Uses
 
