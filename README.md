@@ -1,7 +1,7 @@
 # criPPLe
 Windows kernel driver that removes Process Protection (PP) and Process Protection Light (PPL).
 
-# This was made with the help of Zero-Point Security's ["Offensive Driver Development course"](https://training.zeropointsecurity.co.uk/courses/offensive-driver-development)
+**This was made with the help of Zero-Point Security's ["Offensive Driver Development course"](https://training.zeropointsecurity.co.uk/courses/offensive-driver-development)**
 
 **This kernel driver removes the process protection from a given pid, and sets the fields of the process's PS_PROTECTION struct values to all 0**
 **Dually this kernel driver can also make a process protected by setting the process's PS_PROTECTION struct values to custom values that suit your needs**
